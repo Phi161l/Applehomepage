@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+/* the header */
+.bgback{
+    background-color: blue;
+    color: white;
+
+}
+/* the two puppy */
+.text-center h2{
+   font-size: 56px;
+}
+.miss{
+    background-color: red;
+    font-size: 35px;
+}
+.row{
+    justify-content: center;
+}
+
+
+
+@media(min-width:992px){
+    .miss{
+        font-size: 46px;
+    }
+}
+@media(min-width:1200px){
+    .miss{
+        font-size: 56px;
+    }
+}
